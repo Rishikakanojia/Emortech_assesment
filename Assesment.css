@@ -272,6 +272,9 @@ color: #FFFFFF;
     display: none;
 }
 
+#error{
+  color: red;
+}
 
 
 
