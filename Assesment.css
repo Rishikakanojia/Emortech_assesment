@@ -230,7 +230,7 @@ line-height: 150%;
 #sec2{
     
 width: 481px;
-top: 287px;
+margin-top: 287px;
 border-radius: 0px;
 
 }
@@ -271,6 +271,8 @@ color: #FFFFFF;
 #sec2{
     display: none;
 }
+
+
 
 
 
