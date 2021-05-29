@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Assesment</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="Assesment.css"> 
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-md fixed-top">
+    <a class="navbar-brand" href="#"><img alt="logo" src="Images/Logo.png"></a>
+    <ul class="navbar-nav ml-auto ">
+      <li class="nav-item">
+        <a class="nav-link " href="#">Join a Race</a>
+     </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Leaderboard</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#"><button type="button" class="btn btn-light ">Login</button></a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="container" id="sec1">
+    <div class="row-content">
+      <div class="form-group">
+      <div class="form1"> Password Reset</div>
+      <label for="Password">NEW PASSWORD</label>
+      <input type="password" class="form-control" id="pwd" placeholder="" name="pswd" size="25">
+      </div>
+      <div class="form-group">
+      <label for="pwd">RE-ENTER NEW PASSWORD</label>
+      <input type="password" class="form-control" id="repwd" placeholder="" name="repswd" size="25">
+      <div id="error">
+        </div>
+     </div>
+      <div class="form">
+        <button onclick="submit()" type="submit" class="btn ">RESET PASSWORD</button>
+      </div>
+    </div>
+  </div>
+
+ <div>
+ <div class="container" id="sec2">
+  <div class="row-content text-center">
+  <div class="form1"> Password Changed</div>
+  <div><p class="text2"> Your password has been updated!Now get back
+    <span>in driver seat, racers are waiting for you!</span></p></div>
+<div> <button type="submit" class="btn-1 ">JOIN A RACE</button></div>
+</div>
+</div>
+</div>
+
+<!-- Footer -->
+  <div id="footer">
+    <div id="footer-menu">
+    <ul>
+<li><a  href="LINK-URL">About Us</a></li>
+<li><a href="LINK-URL">Privacy Policy</a></li>
+<li><a href="LINK-URL">Tutorials</a></li>
+<li><a href="LINK-URL">Terms of Service</a></li>
+</ul>
+</div>
+  </div>
+  <script type="text/javascript" src="index.js"></script>
+
+</body>
+</html>
