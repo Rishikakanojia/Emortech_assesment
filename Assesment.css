@@ -274,6 +274,9 @@ color: #FFFFFF;
 
 #error{
   color: red;
+  font-style: normal;
+font-weight: bold;
+
 }
 
 

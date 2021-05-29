@@ -25,17 +25,17 @@
 
  const submit = () => {
 if(document.getElementById("pwd").value == "")
-document.getElementById("error").innerHTML= "Please Enter password";
+document.getElementById("error").innerHTML= "Please Enter Password!";
 
 else if(document.getElementById("repwd").value == "")
-document.getElementById("error").innerHTML= "Please Enter password";
+document.getElementById("error").innerHTML= "Please Enter Password!";
 
  else if(document.getElementById("pwd").value != document.getElementById("repwd").value
 )
-document.getElementById("error").innerHTML="Passswords do not match";
+document.getElementById("error").innerHTML="Passswords do not Match!";
  
   else if (document.getElementById("pwd").value.length< 8)
-document.getElementById("error").innerHTML="Passswords is short";
+document.getElementById("error").innerHTML="Passwords is Short!";
 
 else {
   document.getElementById("sec1").style.display = "none";
